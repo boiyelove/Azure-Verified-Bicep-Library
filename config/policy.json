@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Azure-Verified-Bicep-Library",
+  "rank": 13,
+  "action": "plan_azure_verified_bicep_library",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
